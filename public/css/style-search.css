@@ -1,0 +1,134 @@
+.wrapper {
+    width: 85%;
+    margin: auto;
+    padding: 2rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*------------ FILTER SECTION ---------*/
+#filter {
+    width: 25%;
+  }
+  
+  #filter h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  
+  .filter-section {
+    width: 90%;
+    padding: 0.5rem;
+    border: 1px solid #CCCCCC;
+  }
+  
+  .filter-section:first-of-type {
+    border-bottom-width: 0.5px;
+  }
+  
+  .filter-section:last-child {
+    border-top-width: 0.5px;
+  }
+  
+  
+  .filter-section h3, .checkbox-group {
+    margin: 0.5rem 1rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+  
+  .checkbox-group {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .checkbox-group input[type="checkbox"] {
+    width: 1.1rem;
+    height: 1.1rem;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .checkbox-group label {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+
+  .checkbox-group img {
+    width: 1.1rem;
+  }
+
+
+  /* ----------- SEARCH CONTENT ----------- */
+  .searched-content {
+    width: 70%;
+  }
+
+  .searched-content h3 {
+    margin-bottom: 0.6rem;
+    color: #A0A099;
+    font-size: 0.9rem;
+    font-weight: 700;
+  }
+  
+  .content-wrapper {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 20px;
+    background-color: #F1F1F1;
+  }
+
+  .bookmark {
+    position: absolute;
+    right: 1rem;
+    width: 1.2rem;
+    z-index: 99;
+  }
+  
+  .content-img {
+    width: 17rem;
+  }
+
+  .content-category, .content-location, .rating {
+    display: flex;
+  }
+
+  .content-detail {
+    width: 58%;
+  }
+
+  .content-detail img {
+    width: 1.2rem;
+  }
+
+  .content-detail h2{
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+
+  .content-detail p {
+    width: 90%;
+    max-height: 5.7rem;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .content-detail h2, .content-category, .content-location, .content-detail p {
+    margin-bottom: 0.6rem;
+  }
+
+  .rating {
+    margin-bottom: 0.2rem;
+  }
+  
+  .content-wrapper h4{
+    margin-left: 0.3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }

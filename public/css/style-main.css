@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav {
+    width: 100%;
+    border-bottom: 2px solid #EEE;;
+}
+
+.nav-container {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 0.5rem 0;
+}
+
+.con1, .con2 {
+    display: flex;
+    align-items: center;
+}
+
+.con1 {
+    margin-right: 10rem;
+}
+
+.logo {
+    width: 3.5rem;
+}
+
+.search-bar {
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    background-color: #EEEEEE;
+    border-radius: 17px;
+    padding: 0.4rem;
+  }
+  
+#searchInput {
+    flex-grow: 1;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    text-indent: 0.2rem;
+    color: #3c4043;
+    background-color: transparent;
+  }
+
+::placeholder {
+  color: #999999;
+  opacity: 1;
+}
+
+.search-icon {
+    width: 1rem;
+    padding: 0 1rem;
+}
+
+.map-icon {
+    width: 1.3rem;
+    margin-left: 1rem;
+}
+
+.user-name {
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+#paragraph {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 9rem;
+}
+
+.profile-img {
+    width: 2rem;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.menu {
+    display: none;
+    width: 8rem;
+    position: absolute;
+    top: 2.7rem;
+    right: 3rem;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li {
+    flex: 1 0 100%;
+    /* margin-bottom: 5px; */
+}
+
+.menu ul li a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    background-color: #eee;
+}
+
+.menu button {
+    width: 100%;
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.menu button:hover {
+    background-color: #eee;
+}
+
+.login-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 12px;
+}
+
+.login-btn:hover {
+    background-color: #eee;
+}
+
+/* ---- FOOTER ---- */
+footer {
+    padding: 0.5rem 0;
+    width: 100%;
+    border-top: 2px solid #EEE;
+}
+
+.footer-container {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding: 0.5rem 0;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: 5rem;
+}
+
+li {
+    margin-right: 3rem;
+}
+
+.footer-container a {
+    font-size: 0.9rem;
+}
+
+.footer-container a:hover {
+    color: #F3906E;
+}

@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F8F8F8;
+    letter-spacing: 0.09rem;
+}
+
+.container {
+    box-sizing: border-box;
+    width: 30%;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container img {
+    width: 25%;
+    margin-bottom: 1rem;
+}
+
+.content-container {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.content-container h1 {
+    font-size: 2rem;
+}
+
+.content-container p{
+    font-size: 1rem;
+    color: #000000BF;
+}
+
+.content-container form {
+    width: 100%;
+    margin-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-container form input, #submit, .dropdown-container select {
+    height: 3rem;
+    margin-bottom: 1rem;
+    text-indent: 1.5rem;
+    letter-spacing: 0.09rem;
+    border: none;
+    border-radius: 8px;
+    color: #000000BF;
+    background-color: #efefef;
+}
+
+#submit {
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #F3906E;
+}
+
+.container h2 {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.container h2 a {
+    color: #F3906E;
+    text-decoration: none;
+}
+
+.dropdown-container select {
+    width: 100%;
+    border: none;
+}
+
+.terms-checkbox {
+    font-size: 1rem;
+  }
+  
+  .terms-checkbox input[type="checkbox"] {
+    margin-right: 5px;
+    width: 1rem;
+    cursor: pointer;
+  }
+  
+  .terms-checkbox label {
+    position: relative;
+    top: -18px;
+    cursor: pointer;
+  }
+  
+  .terms-checkbox label a {
+    text-decoration: none;
+    color: #000000BF;
+  }
+
+  .terms-checkbox label a:hover {
+    color: #F3906E;
+  }
+  
+
+  .success-register {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .success-register h2 {
+    
+    font-size: 1.5rem;
+    font-weight: 600;
+  }

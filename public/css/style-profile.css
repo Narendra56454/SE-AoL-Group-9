@@ -1,0 +1,47 @@
+.container {
+    box-sizing: border-box;
+    width: 65%;
+    margin: 4rem auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.container h1 {
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.edit-profile-img {
+    width: 7rem;
+    margin-bottom: 3rem;
+}
+
+.detail-profile {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.detail-container p {
+    width: 46%;
+    text-align: left;
+}
+
+.detail-profile .p {
+    width: 46%;
+    text-align: right;
+}
+
+#edit {
+    margin-top: 2rem;
+    padding: 0.7em;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+    background: #F3906E;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}

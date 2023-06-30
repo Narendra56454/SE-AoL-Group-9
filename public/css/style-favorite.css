@@ -1,0 +1,71 @@
+.content-container {
+    width: 60%;
+    margin: 3rem auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-container h1 {
+    width: 100%;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.content-wrapper {
+    /* width: 45%; */
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+    border-radius: 20px;
+    background-color: #F1F1F1;
+  }
+
+  .bookmark {
+    position: absolute;
+    right: 1rem;
+    width: 1.2rem;
+  }
+  
+  .content-img {
+    width: 17rem;
+  }
+
+  .content-category, .content-location, .rating {
+    display: flex;
+  }
+
+  .content-detail {
+    width: 58%;
+  }
+
+  .content-detail img {
+    width: 1.2rem;
+  }
+
+  .content-detail h2{
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+
+  .content-detail p {
+    width: 90%;
+    max-height: 6rem;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .content-detail h2, .content-category, .content-location, .content-detail p {
+    margin-bottom: 0.6rem;
+  }
+
+  .rating {
+    margin-bottom: 0.2rem;
+  }
+  
+  .content-wrapper h4{
+    margin-left: 0.3rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }

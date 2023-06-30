@@ -1,0 +1,110 @@
+.content-container {
+    position: relative;
+    box-sizing: border-box;
+    width: 60%;
+    margin: 2rem auto;
+    padding: 2rem;
+}
+
+.content-container h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.profile-img-container {
+    position: absolute;
+    right: 0;
+    top: 1.6rem;
+    cursor: pointer;
+}
+
+.editProfile-img {
+    width: 5rem;
+}
+
+.camera-icon {
+    position: relative;
+    right: 2rem;
+    width: 1.8rem;
+}
+
+.content-container form {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.content-container label {
+    margin-top: 1rem;
+}
+
+.content-container input {
+    height: 2.5rem;
+    text-indent: 1rem;
+    border-radius: 4px;
+    border: 2px solid #858585;
+}
+
+.address {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown-container {
+    width: 47%;    
+}
+
+.address select {
+    width: 100%;
+    height: 3rem;
+    font-size: 1.2rem;
+    text-indent: 0.7rem;
+    border-radius: 4px;
+    border: 2px solid #858585;
+}
+
+
+.conf-btn {
+    width: 40%;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+#batal {
+    width: 6em;
+    padding: 0.7rem 0;
+    border-radius: 4px;
+    border: none;
+    text-align: center;
+    outline: 2px solid #F3906E;
+    color: #F3906E;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+#batal:hover {
+    color: #ffffff;
+    background: #F3906E;
+}
+
+#simpan {
+    font-size: 1.3rem;
+    width: 6em;
+    padding: 0.7rem 0;
+    color: #ffffff;
+    background: #F3906E;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+#simpan:hover {
+    outline: 2px solid #F3906E;
+    color: #F3906E;
+    background-color: #ffffff;
+}
